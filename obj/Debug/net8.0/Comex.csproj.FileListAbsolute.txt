@@ -1,0 +1,14 @@
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\bin\Debug\net8.0\Comex.exe
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\bin\Debug\net8.0\Comex.deps.json
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\bin\Debug\net8.0\Comex.runtimeconfig.json
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\bin\Debug\net8.0\Comex.dll
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\bin\Debug\net8.0\Comex.pdb
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.AssemblyInfoInputs.cache
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.AssemblyInfo.cs
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.csproj.CoreCompileInputs.cache
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.dll
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\refint\Comex.dll
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.pdb
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.genruntimeconfig.cache
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\ref\Comex.dll
