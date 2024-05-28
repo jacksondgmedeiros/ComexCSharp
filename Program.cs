@@ -99,7 +99,8 @@ void ListarProdutos()
     
     foreach (string produto in listaProodutos)
     {
-        Console.WriteLine(produto);
+        
+        Console.WriteLine($"Nome: {produto}");
     }
 }
 
