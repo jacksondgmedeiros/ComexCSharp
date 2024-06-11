@@ -12,3 +12,4 @@ C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Deb
 C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.pdb
 C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.genruntimeconfig.cache
 C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\ref\Comex.dll
+C:\Users\jacks\OneDrive\Documentos\DEV\ALURA\TRILHA5\5SEMANA\Comex\Comex\obj\Debug\net8.0\Comex.sourcelink.json
