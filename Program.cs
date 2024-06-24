@@ -2,6 +2,9 @@
 using Comex.Modelos;
 using System.Runtime.Serialization;
 using System.Text.Json;
+using System.Xml;
+
+var listaPedidos = new List<Pedido>();
 
 Produto produto = new("iPhone")
 {
@@ -53,6 +56,8 @@ async Task ExibirMenu(){
     Console.WriteLine("\n Digite 1 para Adicionar produto");
     Console.WriteLine("\n Digite 2 para Listar todos os produtos");
     Console.WriteLine("\n Digite 3 para Consulta de API Externa");
+    Console.WriteLine("\n Digite 4 Criar Pedido");
+    Console.WriteLine("\n Digite 5 Listar Pedidos");
 
 
     Console.Write("\n Digite sua opção: ");
@@ -73,10 +78,67 @@ async Task ExibirMenu(){
         case 3:
             await ConsultaApiExterna();
             break;
+        case 4:
+            await CriarPedidoAsync();
+            break;
+        case 5:
+            await ListarPedidosAsync();
+            break;
         default:
             Console.WriteLine("Opção Inválida");
             break;
     }
+}
+
+async Task ListarPedidosAsync()
+{
+   Console.Clear();
+    Console.WriteLine("Litando os pedidos:");
+
+    var pedidosOrdenados = listaPedidos.OrderBy(pedido => pedido.Cliente.Nome).ToList();
+
+    foreach (var p in pedidosOrdenados)
+    {
+        Console.WriteLine($"Pedido: {p}");
+        
+    }
+
+    Console.ReadKey();
+    await ExibirMenu();
+}
+
+async Task CriarPedidoAsync()
+{
+    Console.Clear();
+    Console.WriteLine("Criando um novo Pedido");
+    Console.WriteLine("Digite o nome do CLiente");
+    string nomeCLiente = Console.ReadLine()!;
+
+    var cliente1 = new Cliente(nomeCLiente, endereco);
+
+    Pedido pedido = new Pedido(cliente1);
+
+    Console.WriteLine($"\n Produtos disponíveis: ");
+
+    Console.WriteLine($" Produto: {produto.Nome}, Valor: {produto.PrecoUnitario}");
+
+    Console.Write($"Digite a quantidade desejada: ");
+    var quantidade = int.Parse( Console.ReadLine()!);
+
+    ItemDePedido itemDePedido = new(produto, quantidade, (decimal)produto.PrecoUnitario);
+    pedido.AdicionarItem(itemDePedido);
+    Console.WriteLine("Item adicionado com sucesso!");
+    Console.WriteLine(itemDePedido);
+    listaPedidos.Add(pedido);
+    Console.WriteLine(pedido);
+    Console.WriteLine("pedido criado com sucesso!");
+
+    Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+    Console.ReadKey();
+
+
+    await ExibirMenu();
+
 }
 
 async Task ConsultaApiExterna()
